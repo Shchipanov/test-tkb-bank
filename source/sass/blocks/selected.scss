@@ -1,0 +1,23 @@
+.selected .product__card {
+  border-color: $color-ruby;
+}
+
+.selected .product__card::before {
+  background-color: $color-ruby;
+}
+
+.selected .product__number {
+  background-color: $color-ruby;
+}
+
+.selected:hover .product__card {
+  border-color: $color-deep-cerise;
+}
+
+.selected:hover .product__card::before {
+  background-color: $color-deep-cerise;
+}
+
+.selected:hover .product__number {
+  background-color: $color-deep-cerise;
+}

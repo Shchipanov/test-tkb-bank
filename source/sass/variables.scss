@@ -1,0 +1,66 @@
+// Colors
+// ---------------------------------
+
+// Default
+
+$color-default-black: #000000;
+$color-default-white: #ffffff;
+
+// Project palette
+// для нейминга цветов используем https://www.htmlcsscolor.com/hex/334482
+
+$color-neon-blue: #2c39f2;
+$color-torch-red: #ff1553;
+$color-white-smoke: #f2f2f2;
+$color-pacific-blue: #1698d9;
+$color-dim-gray: #666666;
+$color-summer-sky: #2ea8e6;
+$color-ruby: #d91667;
+$color-deep-cerise: #e52e7a;
+$color-pink-swan: #b3b3b3;
+$color-laser-lemon: #ffff66;
+
+// Gradient
+
+$background: linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 5e-05) 49.88%, rgba(0, 0, 0, 0.5) 100%);
+
+// Typography
+// ---------------------------------
+
+// переменная используемая в html для подключения скейлинга
+$fz-default: 16px;
+
+// у некоторых шрифтов в ios возникают проблемы с символом рубля
+// https://www.artlebedev.ru/kovodstvo/sections/159/#13
+$ff-trebuchet-ms: "Trebuchet MS", "Arial", sans-serif;
+
+$ff-exo20: "Exo2.0", "Arial", sans-serif;
+
+// Animation
+// ---------------------------------
+
+$tf-default: ease;
+$trans-default: 0.3s $tf-default;
+
+// если требуется изинг отличный от $tf-default, то переменную называем не цифрой
+$trans-modal: 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+
+$trans-600: 0.6s $tf-default;
+
+// Viewports
+// ---------------------------------
+
+$vp-320: 320px;
+$vp-375: 375px;
+$vp-768: 768px;
+$vp-1024: 1024px;
+$vp-1200: 1200px;
+$vp-1280: 1280px;
+$vp-1440: 1440px;
+$vp-1920: 1920px;
+
+// Retina
+// ---------------------------------
+
+$retina-dpi:  144dpi;
+$retina-dppx: 1.5dppx;
