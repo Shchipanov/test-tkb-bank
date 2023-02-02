@@ -1,0 +1,30 @@
+.menu {
+  flex-basis: 15%;
+
+  border-right: 5px solid $color-dim-gray;
+}
+
+.menu__list {
+  padding: 15px;
+  position: relative;;
+
+  list-style-type: none;
+
+  &::after {
+    position: absolute;
+    content: "";
+    width: 80%;
+    height: 2px;
+    background-color: $color-pink-swan;
+    top: 0;
+  }
+}
+
+.menu__item {
+  margin: 0 0 10px 0;
+}
+
+.menu h2 {
+  margin: 10px 0 0;
+  padding: 0 0 0 10px;
+}

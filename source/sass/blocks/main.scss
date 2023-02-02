@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+}
+
+
+.main__wrapper {
+  display: flex;
+  flex-grow: 1;
+
+  border: 5px solid $color-dim-gray;
+}

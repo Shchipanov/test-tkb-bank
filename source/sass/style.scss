@@ -18,11 +18,12 @@
 // Blocks
 // ---------------------------------
 
-@import "blocks/product";
-@import "blocks/selected";
-@import "blocks/disabled";
 
-
+@import "blocks/header";
+@import "blocks/footer";
+@import "blocks/main";
+@import "blocks/form";
+@import "blocks/menu";
 // ---------------------------------
 
 // ❗❗❗ запрещено использовать изображения в css, касается как jpg \ png, так и svg
